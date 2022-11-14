@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+
+.hero::before{
+  content:'';
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
