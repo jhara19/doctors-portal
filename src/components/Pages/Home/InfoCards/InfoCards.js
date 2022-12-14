@@ -1,9 +1,11 @@
 
 import React from 'react';
-import clock from '../../../assets/icons/clock.svg';
-import marker from '../../../assets/icons/marker.svg';
-import phone from '../../../assets/icons/phone.svg';
+import clock from '../../../../assets/icons/clock.svg';
+import marker from '../../../../assets/icons/marker.svg';
+import phone from '../../../../assets/icons/phone.svg';
 import InfoCard from './InfoCard';
+
+
 const InfoCards = () => {
     const cardData = [
         {
@@ -35,6 +37,7 @@ const InfoCards = () => {
                 key={card.id}
                 card = {card}
             ></InfoCard>)}
+            
         </div>
     );
 };
